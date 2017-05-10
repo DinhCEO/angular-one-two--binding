@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>demo</title>
+  
+
+
+ 
+</head>
+<body ng-app="appHero">
+  	<div ng-controller="MainCtrl as ctrl">
+	  <b>Hero</b><br>
+	  <input type="text" ng-model="hero.name" name="name"> 
+	  <hero-detail herodetail="hero.name"></hero-detail>
+	</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.11/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="hero-detail.js"></script>
+</body>
+</html>
